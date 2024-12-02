@@ -1,0 +1,26 @@
+{
+    "name": "network-monitoring-dashboard",
+    "version": "1.0.0",
+    "description": "A real-time network monitoring dashboard with traffic analysis, uptime tracking, and anomaly alerts.",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+    },
+    "keywords": ["network", "monitoring", "dashboard", "real-time", "nodejs"],
+    "author": "Joshua Baney",
+    "license": "MIT",
+    "dependencies": {
+      "bcrypt": "^5.1.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "jsonwebtoken": "^9.0.0",
+      "mongoose": "^7.4.0",
+      "socket.io": "^4.7.1"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
+  
